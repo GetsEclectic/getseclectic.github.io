@@ -12,5 +12,7 @@ function submitForm() {
     const res = displayText || 'password incorrect.';
     document.getElementById('display').innerHTML = res;
     document.getElementById('passwordForm').style.display = "none";
+    jQuery(custom_main($));
+    jQuery(window_load($))
 }
 document.getElementById('formBtn').addEventListener('click', submitForm);
