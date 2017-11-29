@@ -2709,3 +2709,12 @@ span.stButton_gradient,
   top: 0;
   right: 0;
 }
+
+.full-width-divider {
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.full-width-divider h1 {
+  color: white;
+}
