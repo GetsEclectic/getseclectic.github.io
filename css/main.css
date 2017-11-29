@@ -1577,7 +1577,7 @@ Blog Default
   height: 100%;
   border-left-color: #989898;
   left: 50%;
-  margin-left: -2px;
+  margin-left: -1px;
 }
 
 .timeline-blog .col-sm-6.padding-top{
@@ -1639,6 +1639,11 @@ a.read-more:hover{
   margin-top: 20px;
   margin: 20px -20px 0;
   padding: 20px 20px 0;
+}
+
+.post {
+  padding-right: 1px;
+  padding-left: 0px;
 }
 
 
