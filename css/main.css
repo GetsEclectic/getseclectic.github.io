@@ -2718,3 +2718,44 @@ span.stButton_gradient,
 .full-width-divider h1 {
   color: white;
 }
+
+.transbox-over {
+  position: relative;
+}
+
+.transbox-over div {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  background: rgba(255, 255, 255, .3);
+  width: 200px;
+  padding: 20px;
+  border: 2px solid white;
+}
+
+.transbox-over h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 24pt;
+  margin-top: 0px;
+}
+
+.transbox-over p {
+  color: white;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.transbox-over a {
+  border: 0;
+  background-color: white;
+  color: #4e7a8e;
+  font-weight: bold;
+}
+
+.transbox-over a:hover {
+  border: 0;
+  background-color: white;
+  color: #4e7a8e;
+  font-weight: bold;
+}
