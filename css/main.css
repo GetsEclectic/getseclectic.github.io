@@ -761,7 +761,7 @@ ul.sub-menu {
 }
 
 #team-carousel {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 #company-information .padding-top{
@@ -884,12 +884,12 @@ ul.sub-menu {
 }
 
 .right.team-carousel-control {
-  right: -50px;
+  right: -15px;
   background-image: url(../images/aboutus/right.png);
 }
 
 .left.team-carousel-control {
-  left: -50px;
+  left: -15px;
   background-image: url(../images/aboutus/left.png);
 }
 
@@ -2756,4 +2756,14 @@ span.stButton_gradient,
   background-color: white;
   color: #4e7a8e;
   font-weight: bold;
+}
+
+.team {
+  background-color: #f8eae6;
+  padding-bottom: 40px;
+}
+
+.team div.row {
+  padding-left: 30px;
+  padding-right: 30px;
 }
