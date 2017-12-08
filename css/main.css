@@ -2717,33 +2717,36 @@ span.stButton_gradient,
   position: relative;
 }
 
-.transbox-over div {
+.transbox-over > div {
   position: absolute;
-  top: 20%;
-  left: 5%;
-  background: rgba(255, 255, 255, .3);
-  width: 200px;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, .5);
+  width: 35%;
   padding: 20px;
-  border: 2px solid white;
+  height: 100%;
+}
+
+.transbox-over > div > div {
+  position: absolute;
+  top: calc(50% - 120px);
+  left: calc(50% - 100px);
 }
 
 .transbox-over h2 {
-  color: white;
   font-weight: bold;
   font-size: 24pt;
   margin-top: 0px;
 }
 
 .transbox-over p {
-  color: white;
   font-size: 14pt;
-  font-weight: bold;
 }
 
 .transbox-over a {
   border: 0;
-  background-color: white;
-  color: #4e7a8e;
+  background-color: #82a5b5;
+  color: white;
   font-weight: bold;
 }
 
