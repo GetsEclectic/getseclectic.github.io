@@ -17,7 +17,7 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
-    color: #000;
+    color: #2D5E74;
   }
 
   html {
@@ -26,7 +26,7 @@
 
 
   a{
-    color:#C03035;
+    color:#5EC9FC;
   }
 
   a:hover {
@@ -57,13 +57,8 @@
     font-weight: 300;
   }
 
-  h1{
-    color: #686868;
-  }
-
   h2{
     font-size: 24px;
-    color: #686868;
   }
 
   h3{
@@ -118,6 +113,10 @@
   .padding-bottom{
     padding-bottom: 65px;
   }
+
+.padding-bottom-small{
+  padding-bottom: 30px;
+}
 
   .padding-top{
     padding-top: 90px;
@@ -696,7 +695,6 @@ ul.sub-menu {
 }
 
 .title {
-  color: #404040;
   font-weight: 300;
 }
 
