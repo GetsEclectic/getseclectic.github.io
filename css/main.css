@@ -1489,6 +1489,7 @@ Blog Default
 .single-blog.timeline {
   position: relative;
   padding-bottom: 0;
+  width: 50%;
 }
 
 .timeline .post-content {
@@ -2765,4 +2766,8 @@ span.stButton_gradient,
 .team div.row {
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.fadeInLeft {
+  left: 25%
 }
