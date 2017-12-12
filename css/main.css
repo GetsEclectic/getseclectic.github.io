@@ -2771,3 +2771,20 @@ span.stButton_gradient,
 .fadeInLeft {
   left: 25%
 }
+
+.private-nav {
+  position: relative;
+}
+
+.private-nav div {
+  position: absolute;
+  top: 5%;
+  left: calc(50% - 300px);
+}
+
+.private-nav div a {
+  color: #0474aa;
+  font-size: 14pt;
+  font-weight: bold;
+  padding-right: 2em;
+}
