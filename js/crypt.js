@@ -12,7 +12,6 @@ function submitForm() {
     const res = displayText || 'password incorrect.';
     document.getElementById('display').innerHTML = res;
     document.getElementById('passwordForm').style.display = "none";
-    $('#private-top')[0].scrollIntoView( true );
     jQuery(custom_main($));
     jQuery(window_load($))
 }
