@@ -2834,3 +2834,7 @@ span.stButton_gradient,
 #bandc .col-md-12 {
   padding: 0;
 }
+
+.rsvp {
+  display: none;
+}
