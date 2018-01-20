@@ -2838,3 +2838,19 @@ span.stButton_gradient,
 .rsvp {
   display: none;
 }
+
+.full-width-divider {
+  position: relative;
+}
+
+.full-width-divider > div {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  width: 35%;
+  font-weight: bold;
+}
+
+.full-width-divider h2 {
+  font-weight: bold;
+}
