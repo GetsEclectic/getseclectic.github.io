@@ -2775,17 +2775,23 @@ span.stButton_gradient,
   position: relative;
 }
 
-.private-nav div {
+.left-nav {
   position: absolute;
-  top: 5%;
-  left: calc(50% - 300px);
+  top: 12%;
+  left: 8%;
 }
 
-.private-nav div a {
+.right-nav {
+  position: absolute;
+  top: 12%;
+  right: 6%;
+}
+
+.left-nav a, .right-nav a {
   color: #0474aa;
   font-size: 14pt;
   font-weight: bold;
-  padding-right: 2em;
+  padding-right: 3em;
 }
 
 #services .container {
