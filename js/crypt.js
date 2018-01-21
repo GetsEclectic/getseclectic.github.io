@@ -11,7 +11,7 @@ function submitForm() {
 
     const res = displayText || 'password incorrect.';
     document.getElementById('display').innerHTML = res;
-    document.getElementById('passwordForm').style.display = "none";
+    document.getElementById('private').style.display = "none";
 
     $("#features").append($(".rsvp"));
     $(".rsvp").show();

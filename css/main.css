@@ -2876,3 +2876,17 @@ span.stButton_gradient,
   font-size: 14pt;
   text-decoration: underline;
 }
+
+#private .row {
+  position: relative;
+}
+
+#passwordForm {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+#passwordForm button {
+  background-color: #83a5b5;
+}
