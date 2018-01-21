@@ -2860,3 +2860,19 @@ span.stButton_gradient,
 .full-width-divider h2 {
   font-weight: bold;
 }
+
+.intro-image {
+  position: relative;
+}
+
+.skip-intro {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.skip-intro a {
+  color: white;
+  font-size: 14pt;
+  text-decoration: underline;
+}
