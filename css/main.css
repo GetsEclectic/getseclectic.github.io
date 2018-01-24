@@ -898,6 +898,39 @@ ul.sub-menu {
   transition: all 0.5s ease;
 }
 
+a.carousel-control.left {
+  left: -85px;
+  background-image: none;
+}
+
+a.carousel-control.right {
+  background-image: none;
+  right: -85px;
+}
+
+
+@media (max-width: 768px) {
+  a.carousel-control.left {
+    left: -40px;
+  }
+
+  a.carousel-control.right {
+    right: -40px;
+  }
+}
+
+a.carousel-control.left.insideimage {
+  left: 0;
+}
+
+a.carousel-control.right.insideimage {
+  right: 0;
+}
+
+.glyphicon.glyphicon-chevron-left, .glyphicon.glyphicon-chevron-right {
+  margin-top: -45px;
+}
+
 .count h1{
   font-size: 60px;
   color: #00aeef;
