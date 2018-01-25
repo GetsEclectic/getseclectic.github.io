@@ -2927,7 +2927,8 @@ span.stButton_gradient,
 #passwordForm {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 50%;
+  transform: translate(-49%, -49%);
 }
 
 #passwordForm button {
