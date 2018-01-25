@@ -2842,7 +2842,7 @@ span.stButton_gradient,
 }
 
 #services > div {
-
+  padding: 5%;
 }
 
 #services .map-text {
@@ -2850,7 +2850,7 @@ span.stButton_gradient,
   top: 0;
   right: 0;
   height: 100%;
-  width: 33%;
+  width: 25%;
 }
 
 #services .map-text > div {
