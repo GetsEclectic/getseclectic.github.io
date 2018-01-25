@@ -2814,14 +2814,14 @@ span.stButton_gradient,
 
 .left-nav {
   position: absolute;
-  top: 8%;
-  left: 8%;
+  top: 5%;
+  left: 15%;
 }
 
 .right-nav {
   position: absolute;
-  top: 8%;
-  right: 6%;
+  top: 5%;
+  right: 13%;
 }
 
 .left-nav a, .right-nav a {
@@ -2881,6 +2881,10 @@ span.stButton_gradient,
 
 #bandc .col-md-12 {
   padding: 0;
+}
+
+#bandc, #features, #team {
+  background-color: #F6FBFF;
 }
 
 .rsvp {
