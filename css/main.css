@@ -2933,6 +2933,17 @@ span.stButton_gradient,
   top: 50%;
   left: 50%;
   transform: translate(-49%, -49%);
+  width: 30%;
+}
+
+@media (max-width: 600px) {
+  #passwordForm {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+    width: 30%;
+  }
 }
 
 #passwordForm button {
