@@ -2932,7 +2932,7 @@ span.stButton_gradient,
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-49%, -49%);
+  transform: translate(-57%, -49%);
   width: 30%;
 }
 
@@ -2941,8 +2941,8 @@ span.stButton_gradient,
     position: absolute;
     top: 58%;
     left: 50%;
-    transform: translate(-49%, -49%);
-    width: 40%;
+    transform: translate(-55%, -49%);
+    width: 45%;
   }
 }
 
