@@ -2933,7 +2933,7 @@ span.stButton_gradient,
   top: 50%;
   left: 50%;
   transform: translate(-57%, -49%);
-  width: 30%;
+  width: 50%;
 }
 
 @media (max-width: 600px) {
@@ -2948,4 +2948,20 @@ span.stButton_gradient,
 
 #passwordForm button {
   background-color: #83a5b5;
+}
+
+#errorDiv {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-59%, -49%);
+}
+
+@media (max-width: 600px) {
+  #errorDiv {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-55%, -49%);
+  }
 }
