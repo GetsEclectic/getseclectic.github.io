@@ -2933,11 +2933,38 @@ span.stButton_gradient,
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-49%, -49%);
+  transform: translate(-57%, -49%);
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  #passwordForm {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-55%, -49%);
+    width: 45%;
+  }
 }
 
 #passwordForm button {
   background-color: #83a5b5;
+}
+
+#errorDiv {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-59%, -49%);
+}
+
+@media (max-width: 600px) {
+  #errorDiv {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-55%, -49%);
+  }
 }
 
 #cabin-layer-01, #cabin-layer-02, #cabin-layer-03, #cabin-layer-04, #cabin-layer-05, #cabin-layer-06 {

@@ -32,14 +32,17 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-3">
                     <img src="images/Envelope_Modal_new.svg" class="img-responsive center-block padding-top">
-
-                    <div id="passwordForm">
-                        <form onsubmit="return false;">
-                            <label></label>
-                            <input type="password" id="password" type="text">
-                            <button id="formBtn" class="btn btn-primary">ENTER</button>
-                        </form>
-                    </div>
+                    <form onsubmit="return false;">
+                        <div id="passwordForm" class="input-group input-group-sm">
+                            <input type="password" id="password" class="form-control">
+                            <span class="input-group-btn">
+                                <button id="formBtn" class="btn btn-primary" type="button">GO</button>
+                            </span>
+                        </div>
+                        <div id="errorDiv">
+                            <div id="innerErrorDiv"></div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -55,6 +58,7 @@
     </div>
 
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
