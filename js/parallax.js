@@ -1,14 +1,24 @@
 window.addEventListener("scroll", function(){
-    const topDistance = @pageYOffset;
+    const topDistance = window.pageYOffset;
 
     $("#cabin > div").each(function () {
-        const depth = $(this).getAttribute('data-depth');
-        const movement = -(topDistance * depth);
+        const depth = $(this).attr('data-depth');
+        let movement = -(topDistance * depth);
+
+        if($(this).attr('id') === 'cabin-layer-03') {
+            movement = Math.max(movement, -396);
+        }
+
+        if($(this).attr('id') === 'cabin-layer-04') {
+            movement = Math.max(movement, -200);
+        }
+
         const translate3d = 'translate3d(0, ' + movement + 'px, 0)';
-        $(this).style['-webkit-transform'] = translate3d;
-        $(this).style['-moz-transform'] = translate3d;
-        $(this).style['-ms-transform'] = translate3d;
-        $(this).style['-o-transform'] = translate3d;
-        $(this).style.transform = translate3d;
+
+        $(this).css('-webkit-transform', translate3d);
+        $(this).css('-moz-transform', translate3d);
+        $(this).css('-ms-transform', translate3d);
+        $(this).css('-o-transform', translate3d);
+        $(this).css('transform', translate3d);
     });
 });
