@@ -2938,3 +2938,44 @@ span.stButton_gradient,
 #passwordForm button {
   background-color: #83a5b5;
 }
+
+#cabin-layer-01, #cabin-layer-02, #cabin-layer-03, #cabin-layer-04, #cabin-layer-05, #cabin-layer-06 {
+  background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 800px;
+  z-index: -1;
+}
+
+#cabin-layer-01 {
+  background-image: url(../images/cabin/Cabin_1_FuzzySnowpsd.png);
+}
+
+#cabin-layer-02 {
+  background-image: url(../images/cabin/Cabin_2_SpotSnow.png);
+}
+
+#cabin-layer-03 {
+  background-image: url(../images/cabin/Cabin_3_CabinandBoards.png);
+}
+
+#cabin-layer-04 {
+  background-image: url(../images/cabin/Cabin_4_Trees.png);
+}
+
+#cabin-layer-05 {
+  background-image: url(../images/cabin/Cabin_5_Mountains.png);
+}
+
+#cabin-layer-06 {
+  background-image: url(../images/cabin/Cabin_6_Sky.png);
+}
+
+#cabin {
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+  background-color: transparent;
+}
