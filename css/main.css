@@ -2967,11 +2967,11 @@ span.stButton_gradient,
   }
 }
 
-#cabin-layer-01, #cabin-layer-02, #cabin-layer-03, #cabin-layer-04, #cabin-layer-05, #cabin-layer-06 {
+#cabin-layer-01, #cabin-layer-02, #cabin-layer-03, #cabin-layer-04, #cabin-layer-05, #cabin-layer-06,
+#chihiro-layer-01, #chihiro-layer-02, #chihiro-layer-03, #chihiro-layer-04, #chihiro-layer-05 {
   background-position: bottom center;
   background-size: auto;
   background-repeat: no-repeat;
-  /*position: fixed;*/
   width: 100%;
   z-index: -1;
   left: 0;
@@ -3019,7 +3019,50 @@ span.stButton_gradient,
   height: 800px;
 }
 
+#chihiro-layer-05 {
+  background-image: url(../images/cabin/Cabin_6_Sky.png);
+  position: absolute;
+  top: 0;
+  height: 1000px;
+}
+
+#chihiro-layer-04 {
+  background-image: url(../images/chihiro/chihiro.png);
+  background-position: bottom right;
+  position: absolute;
+  top: 0;
+  height: 1200px;
+}
+
+#chihiro-layer-03 {
+  background-image: url(../images/chihiro/hearts-1.png);
+  position: absolute;
+  top: 50px;
+  height: 1000px;
+}
+
+#chihiro-layer-02 {
+  background-image: url(../images/chihiro/hearts-2.png);
+  position: absolute;
+  top: 50px;
+  height: 1000px;
+}
+
+#chihiro-layer-01 {
+  background-image: url(../images/chihiro/hearts-3.png);
+  position: absolute;
+  top: 50px;
+  height: 1000px;
+}
+
 #cabin {
+  position: relative;
+  height: 700px;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+#chihiro {
   position: relative;
   height: 700px;
   overflow: hidden;
