@@ -1522,7 +1522,7 @@ Blog Default
 .single-blog.timeline {
   position: relative;
   padding-bottom: 0;
-  width: 50%;
+  width: 30%;
 }
 
 .timeline .post-content {
@@ -2801,7 +2801,7 @@ span.stButton_gradient,
 }
 
 .fadeInLeft {
-  left: 16.666666666%
+  left: 30%
 }
 
 .fadeInRight {
@@ -2899,7 +2899,7 @@ span.stButton_gradient,
   position: absolute;
   top: 20px;
   left: 40px;
-  width: 55%;
+  width: 30%;
   font-size: 14pt;
   font-weight: 200;
 }
