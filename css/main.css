@@ -2968,7 +2968,8 @@ span.stButton_gradient,
 }
 
 #cabin-layer-01, #cabin-layer-02, #cabin-layer-03, #cabin-layer-04, #cabin-layer-05, #cabin-layer-06,
-#chihiro-layer-01, #chihiro-layer-02, #chihiro-layer-03, #chihiro-layer-04, #chihiro-layer-05 {
+#chihiro-layer-01, #chihiro-layer-02, #chihiro-layer-03, #chihiro-layer-04, #chihiro-layer-05, #boathouse-layer-01,
+#boathouse-layer-02, #boathouse-layer-03 {
   background-position: bottom center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -3055,6 +3056,27 @@ span.stButton_gradient,
   height: 1000px;
 }
 
+#boathouse-layer-03 {
+  background-image: url(../images/boathouse/Boathouse_3_sky.png);
+  position: absolute;
+  top: 0px;
+  height: 1000px;
+}
+
+#boathouse-layer-02 {
+  background-image: url(../images/boathouse/Boathouse_2_boathouse.png);
+  position: absolute;
+  top: 150px;
+  height: 1000px;
+}
+
+#boathouse-layer-01 {
+  background-image: url(../images/boathouse/Boathouse_1_geese.png);
+  position: absolute;
+  top: -100px;
+  height: 1000px;
+}
+
 #cabin {
   position: relative;
   height: 700px;
@@ -3063,6 +3085,13 @@ span.stButton_gradient,
 }
 
 #chihiro {
+  position: relative;
+  height: 700px;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+#boathouse {
   position: relative;
   height: 700px;
   overflow: hidden;
