@@ -3058,6 +3058,7 @@ span.stButton_gradient,
 
 #boathouse-layer-03 {
   background-image: url(../images/boathouse/Boathouse_3_sky.png);
+  background-position: center top;
   position: absolute;
   top: 0px;
   height: 1000px;
