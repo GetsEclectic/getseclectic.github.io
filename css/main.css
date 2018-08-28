@@ -2835,7 +2835,7 @@ span.stButton_gradient,
 }
 
 #services .row {
-  background-color: #f5f3f7;
+  background-color: #F6FBFF;
   position: relative;
   border: 2px solid white;
   margin: 0;
@@ -2843,6 +2843,7 @@ span.stButton_gradient,
 
 #services > div {
   padding: 5%;
+  background: #f5f3f7;
 }
 
 #services .map-text {
